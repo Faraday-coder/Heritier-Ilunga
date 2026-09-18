@@ -1,0 +1,1013 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heritier Ilunga</title>
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- ========== GOOGLE TRANSLATE STYLES ========== -->
+    <style>
+      #google_translate_element {
+        display: inline-block;
+        margin-right: 15px;
+        vertical-align: middle;
+      }
+
+      /* Ficha "Powered by Google" */
+      #google_translate_element .goog-te-gadget {
+        font-family: "Inter", sans-serif !important;
+        font-size: 0 !important;
+        color: transparent !important;
+      }
+      #google_translate_element .goog-te-gadget > span {
+        display: none !important;
+      }
+
+      /* Kitufe cha kuchagua lugha */
+      #google_translate_element .goog-te-combo {
+        background: rgba(168, 85, 247, 0.1) !important;
+        border: 1px solid rgba(168, 85, 247, 0.3) !important;
+        color: #f1f1f7 !important;
+        font-family: "Inter", sans-serif !important;
+        font-size: 0.85rem !important;
+        font-weight: 600 !important;
+        padding: 6px 12px !important;
+        border-radius: 20px !important;
+        cursor: pointer !important;
+        outline: none !important;
+        transition: all 0.3s ease !important;
+      }
+      #google_translate_element .goog-te-combo:hover {
+        background: rgba(168, 85, 247, 0.25) !important;
+        color: #c084fc !important;
+      }
+
+      /* Ficha banner ya Google */
+      .goog-te-banner-frame.skiptranslate {
+        display: none !important;
+      }
+      body {
+        top: 0 !important;
+      }
+
+      /* Ficha highlight ya maneno */
+      .goog-text-highlight {
+        background: transparent !important;
+        box-shadow: none !important;
+      }
+
+      /* Mobile */
+      @media only screen and (max-width: 860px) {
+        #google_translate_element {
+          margin-right: 8px;
+        }
+        #google_translate_element .goog-te-combo {
+          font-size: 0.75rem !important;
+          padding: 4px 8px !important;
+          max-width: 110px !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- ========== HEADER / HERO ========== -->
+    <div id="header">
+      <div class="container">
+        <nav>
+          <div class="logo-wrap">
+            <img src="images/favGee.png" class="logo" alt="Joshua Media Logo" />
+          </div>
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portofolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+
+          <!-- GOOGLE TRANSLATE -->
+          <div id="google_translate_element"></div>
+
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="text-header">
+          <p>Penetration Testing &amp; Website Designer</p>
+          <h1>
+            Hello, I'm <span>Heritier</span><br />
+            Ilunga from Tanzania
+          </h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== ABOUT ========== -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="images/redev.jpg"
+              alt="Heritier Ilunga"
+              class="zoomable"
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              I break systems — legally, ethically, and with permission — so
+              attackers never get the chance. I hunt vulnerabilities, exploit
+              weaknesses, and patch the gaps before damage is done. I build
+              digital experiences that look sharp, load fast, and feel
+              effortless — from the first pixel to the final line of code. I
+              create visuals that speak without words, designs that stay in
+              memory, and interfaces people actually enjoy using. I keep
+              technology alive — fixing what breaks, securing what matters, and
+              empowering people to learn, work, and grow without limits. From
+              classrooms to networks, from code to creativity — I protect, I
+              build, I support. Ethical by code. Relentless by nature. Trusted
+              by design. <br />
+
+              "Break it. Fix it. Secure it. Repeat." <br />
+              "Design with purpose. Secure with passion. Support with patience."
+              <br />
+              <b>Heritier Ilunga</b>
+            </p>
+
+            <div class="tab-titles">
+              <p
+                class="tab-links active-link"
+                onclick="opentab(event, 'skills')"
+              >
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab(event, 'experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab(event, 'education')">
+                Education
+              </p>
+            </div>
+
+            <!-- Skills -->
+            <div class="tab-content active-tabe" id="skills">
+              <ul>
+                <li>
+                  <span>Website Designer</span><br />Designing professional
+                  websites with beautiful colors, e‑commerce, education,
+                  hospital, etc.
+                </li>
+                <li>
+                  <span>White Hat Hacker</span><br />Ethical hackers legally
+                  identify and fix security vulnerabilities to protect systems,
+                  networks, and data from cyberattacks.
+                </li>
+                <li>
+                  <span>Web Development</span><br />Creating responsive and
+                  interactive websites.
+                </li>
+                <li>
+                  <span>Cyber Security</span><br />Protecting digital assets and
+                  ensuring data integrity.
+                </li>
+              </ul>
+            </div>
+
+            <!-- Experience -->
+            <div class="tab-content" id="experience">
+              <ul>
+                <li>
+                  <span>2023 – Current</span><br />IT at Vodafone Foundation
+                  Instant Network School Tanzania
+                </li>
+                <li>
+                  <span>2017 – 2022</span><br />Teacher at Fraternity Secondary
+                  School Tanzania
+                </li>
+                <li>
+                  <span>2016 – 2017</span><br />Protecting digital assets and
+                  ensuring data integrity at International Rescue Committee
+                  (IRC) Tanzania
+                </li>
+                <li>
+                  <span>2015 – 2016</span><br />Safe Healing and Learning Spaces
+                  Facilitator at International Rescue Committee (IRC) Tanzania
+                </li>
+              </ul>
+            </div>
+
+            <!-- Education -->
+            <div class="tab-content" id="education">
+              <ul>
+                <li>
+                  <span>2015</span><br />Diploma of Cyber Security at Tanzania
+                  Institute of Accountancy (TIA)
+                </li>
+                <li>
+                  <span>2014</span><br />Specialist in Graphic Design at
+                  California Institute of Art
+                </li>
+                <li><span>2013</span><br />Diploma of Sciences</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== SERVICES ========== -->
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+          <div>
+            <svg
+              width="140"
+              height="140"
+              viewBox="0 0 140 140"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="5"
+                y="5"
+                width="130"
+                height="130"
+                rx="16"
+                fill="#007ACC"
+              />
+              <rect
+                x="15"
+                y="20"
+                width="110"
+                height="100"
+                rx="6"
+                fill="#1E1E1E"
+              />
+              <rect
+                x="15"
+                y="20"
+                width="110"
+                height="14"
+                rx="6"
+                fill="#2D2D2D"
+              />
+              <circle cx="24" cy="27" r="3" fill="#FF5F56" />
+              <circle cx="34" cy="27" r="3" fill="#FFBD2E" />
+              <circle cx="44" cy="27" r="3" fill="#27C93F" />
+              <rect
+                x="55"
+                y="22"
+                width="26"
+                height="10"
+                rx="2"
+                fill="#007ACC"
+              />
+              <text
+                x="68"
+                y="30"
+                font-size="5"
+                fill="#fff"
+                text-anchor="middle"
+                font-family="monospace"
+              >
+                index.html
+              </text>
+              <rect x="83" y="22" width="22" height="10" rx="2" fill="#333" />
+              <text
+                x="94"
+                y="30"
+                font-size="5"
+                fill="#aaa"
+                text-anchor="middle"
+                font-family="monospace"
+              >
+                style.css
+              </text>
+              <rect x="107" y="22" width="16" height="10" rx="2" fill="#333" />
+              <rect x="15" y="34" width="20" height="86" fill="#252526" />
+              <rect x="18" y="40" width="14" height="3" rx="1" fill="#888" />
+              <rect x="18" y="47" width="14" height="3" rx="1" fill="#888" />
+              <rect x="18" y="54" width="14" height="3" rx="1" fill="#888" />
+              <rect x="18" y="61" width="14" height="3" rx="1" fill="#888" />
+              <text
+                x="40"
+                y="48"
+                font-size="6"
+                fill="#569CD6"
+                font-family="monospace"
+              >
+                &lt;!DOCTYPE html&gt;
+              </text>
+              <text
+                x="40"
+                y="58"
+                font-size="6"
+                fill="#569CD6"
+                font-family="monospace"
+              >
+                &lt;html&gt;
+              </text>
+              <text
+                x="46"
+                y="68"
+                font-size="6"
+                fill="#4EC9B0"
+                font-family="monospace"
+              >
+                &lt;head&gt;
+              </text>
+              <text
+                x="52"
+                y="78"
+                font-size="6"
+                fill="#CE9178"
+                font-family="monospace"
+              >
+                &lt;title&gt;My Site&lt;/title&gt;
+              </text>
+              <text
+                x="46"
+                y="88"
+                font-size="6"
+                fill="#4EC9B0"
+                font-family="monospace"
+              >
+                &lt;/head&gt;
+              </text>
+              <text
+                x="46"
+                y="98"
+                font-size="6"
+                fill="#C586C0"
+                font-family="monospace"
+              >
+                &lt;body&gt;
+              </text>
+              <text
+                x="52"
+                y="108"
+                font-size="6"
+                fill="#DCDCAA"
+                font-family="monospace"
+              >
+                &lt;h1&gt;Hello&lt;/h1&gt;
+              </text>
+              <text
+                x="46"
+                y="118"
+                font-size="6"
+                fill="#C586C0"
+                font-family="monospace"
+              >
+                &lt;/body&gt;
+              </text>
+              <rect
+                x="80"
+                y="55"
+                width="40"
+                height="60"
+                rx="4"
+                fill="#ffffff"
+              />
+              <rect x="80" y="55" width="40" height="8" rx="4" fill="#E60000" />
+              <circle cx="85" cy="59" r="1.5" fill="#fff" />
+              <circle cx="90" cy="59" r="1.5" fill="#fff" />
+              <rect
+                x="84"
+                y="67"
+                width="32"
+                height="12"
+                rx="2"
+                fill="#007ACC"
+              />
+              <rect x="84" y="82" width="32" height="3" rx="1" fill="#333" />
+              <rect x="84" y="89" width="24" height="3" rx="1" fill="#888" />
+              <rect x="84" y="95" width="20" height="3" rx="1" fill="#888" />
+              <rect
+                x="84"
+                y="102"
+                width="14"
+                height="6"
+                rx="2"
+                fill="#E60000"
+              />
+            </svg>
+            <h2>Website Design</h2>
+            <p>
+              I create visually stunning and user‑friendly websites that
+              effectively communicate your brand's message and engage your
+              audience. My design process focuses on understanding your unique
+              goals, target audience, and industry to deliver custom solutions
+              that stand out.
+            </p>
+            <a href="website.html" target="_blank"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div>
+            <svg
+              width="120"
+              height="120"
+              viewBox="0 0 120 120"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="10"
+                y="10"
+                width="100"
+                height="100"
+                rx="10"
+                fill="#007ACC"
+              />
+              <rect
+                x="20"
+                y="28"
+                width="80"
+                height="64"
+                rx="4"
+                fill="#1E1E1E"
+              />
+              <rect x="20" y="28" width="80" height="10" rx="4" fill="#333" />
+              <circle cx="26" cy="33" r="2" fill="#FF5F56" />
+              <circle cx="34" cy="33" r="2" fill="#FFBD2E" />
+              <circle cx="42" cy="33" r="2" fill="#27C93F" />
+              <rect
+                x="26"
+                y="44"
+                width="20"
+                height="3"
+                rx="1.5"
+                fill="#569CD6"
+              />
+              <rect
+                x="50"
+                y="44"
+                width="30"
+                height="3"
+                rx="1.5"
+                fill="#CE9178"
+              />
+              <rect
+                x="26"
+                y="52"
+                width="40"
+                height="3"
+                rx="1.5"
+                fill="#4EC9B0"
+              />
+              <rect
+                x="26"
+                y="60"
+                width="25"
+                height="3"
+                rx="1.5"
+                fill="#C586C0"
+              />
+              <rect
+                x="55"
+                y="60"
+                width="20"
+                height="3"
+                rx="1.5"
+                fill="#DCDCAA"
+              />
+              <rect
+                x="26"
+                y="68"
+                width="35"
+                height="3"
+                rx="1.5"
+                fill="#569CD6"
+              />
+              <circle cx="88" cy="88" r="4" fill="#F24E1E" />
+              <circle cx="96" cy="88" r="4" fill="#A259FF" />
+              <circle cx="104" cy="88" r="4" fill="#1ABCFE" />
+            </svg>
+            <h2>UI/UX Design</h2>
+            <p>
+              I create intuitive and visually appealing user interfaces that
+              enhance the overall user experience. My designs are focused on
+              usability, accessibility, and aesthetics to ensure that users can
+              easily navigate and interact with digital products.
+            </p>
+            <a href="Udesign.html" target="_blank"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div>
+            <svg
+              width="120"
+              height="120"
+              viewBox="0 0 120 120"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="10"
+                y="10"
+                width="100"
+                height="100"
+                rx="12"
+                fill="#001E36"
+              />
+              <rect
+                x="10"
+                y="10"
+                width="100"
+                height="100"
+                rx="12"
+                fill="none"
+                stroke="#31A8FF"
+                stroke-width="3"
+              />
+              <text
+                x="60"
+                y="78"
+                font-family="Arial, sans-serif"
+                font-size="52"
+                font-weight="bold"
+                fill="#31A8FF"
+                text-anchor="middle"
+              >
+                Ps
+              </text>
+            </svg>
+            <h2>Graphic Design</h2>
+            <p>
+              I create captivating and evocative visual stories that leave a
+              striking impression. My designs blend vibrant creativity with
+              timeless elegance, bringing your brand's unique voice to life. I
+              turn ordinary ideas into extraordinary visual experiences.
+            </p>
+            <a href="graphic.html" target="_blank"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div>
+            <svg
+              width="120"
+              height="120"
+              viewBox="0 0 120 120"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="60" cy="60" r="58" fill="#0A0E27" />
+              <path
+                d="M20 60 H35 M85 60 H100 M60 20 V35 M60 85 V100"
+                stroke="#00D4FF"
+                stroke-width="2"
+              />
+              <circle cx="35" cy="60" r="2" fill="#00D4FF" />
+              <circle cx="85" cy="60" r="2" fill="#00D4FF" />
+              <circle cx="60" cy="35" r="2" fill="#00D4FF" />
+              <circle cx="60" cy="85" r="2" fill="#00D4FF" />
+              <rect
+                x="42"
+                y="55"
+                width="36"
+                height="30"
+                rx="4"
+                fill="#E60000"
+              />
+              <path
+                d="M48 55 V45 C48 38 54 32 60 32 C66 32 72 38 72 45 V55"
+                stroke="#E60000"
+                stroke-width="5"
+                fill="none"
+                stroke-linecap="round"
+              />
+              <circle cx="60" cy="68" r="4" fill="#fff" />
+              <rect x="58" y="68" width="4" height="9" fill="#fff" />
+            </svg>
+            <h2>Cyber Security</h2>
+            <p>
+              I help businesses build strong security postures through risk
+              assessment, policy development, and security awareness training.
+              My goal is to create resilient organizations that can prevent,
+              detect, and respond to cyber incidents effectively.
+            </p>
+            <a href="cyber.html" target="_blank"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div>
+            <svg
+              width="120"
+              height="120"
+              viewBox="0 0 120 120"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="60" cy="60" r="58" fill="#111111" />
+              <path
+                d="M60 20 C40 20 32 38 34 60 C36 78 46 92 60 92 C74 92 84 78 86 60 C88 38 80 20 60 20 Z"
+                fill="#E60000"
+              />
+              <ellipse cx="60" cy="56" rx="16" ry="18" fill="#111111" />
+              <circle cx="54" cy="56" r="2.5" fill="#E60000" />
+              <circle cx="66" cy="56" r="2.5" fill="#E60000" />
+              <rect
+                x="40"
+                y="70"
+                width="40"
+                height="22"
+                rx="2"
+                fill="#111111"
+              />
+              <text
+                x="46"
+                y="84"
+                font-family="monospace"
+                font-size="9"
+                fill="#E60000"
+              >
+                &gt;_
+              </text>
+            </svg>
+            <h2>Penetration Testing</h2>
+            <p>
+              Conduct authorized security assessments of web apps, networks, and
+              systems. Perform reconnaissance, vulnerability scanning, and
+              controlled exploitation using tools like Burp Suite, Nmap, and
+              Metasploit. Document findings, rate risks, write technical and
+              executive reports, and recommend remediation. Collaborate with
+              teams and retest fixes to strengthen security posture.
+            </p>
+            <a href="pene.html" target="_blank"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div>
+            <svg
+              width="120"
+              height="120"
+              viewBox="0 0 120 120"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="60" cy="60" r="58" fill="#111" />
+              <path
+                d="M60 25 L90 35 L90 65 C90 85 60 100 60 100 C60 100 30 85 30 65 L30 35 Z"
+                fill="#E60000"
+              />
+              <ellipse cx="60" cy="50" rx="22" ry="8" fill="#ffffff" />
+              <rect
+                x="40"
+                y="42"
+                width="40"
+                height="10"
+                rx="3"
+                fill="#ffffff"
+              />
+              <circle cx="60" cy="65" r="6" fill="#111" />
+              <rect x="57" y="68" width="6" height="12" fill="#111" />
+            </svg>
+            <h2>White Hat Hackers</h2>
+            <p>
+              Ethical hacker, penetration tester, offensive security,
+              vulnerability assessment, exploit analysis, risk mitigation, red
+              teaming, bug bounty, OWASP, reconnaissance, threat modeling,
+              security audit, responsible disclosure, cyber defense, ethical by
+              code, trusted security researcher, securing the web, one exploit
+              at a time.
+            </p>
+            <a href="white.html" target="_blank"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div>
+            <svg
+              width="100"
+              height="100"
+              viewBox="0 0 100 100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" r="48" fill="#E60000" />
+              <path
+                d="M28 52 Q28 24 50 24 Q72 24 72 52"
+                stroke="#ffffff"
+                stroke-width="6"
+                fill="none"
+                stroke-linecap="round"
+              />
+              <rect
+                x="22"
+                y="50"
+                width="12"
+                height="20"
+                rx="5"
+                fill="#ffffff"
+              />
+              <rect
+                x="66"
+                y="50"
+                width="12"
+                height="20"
+                rx="5"
+                fill="#ffffff"
+              />
+              <path
+                d="M28 68 Q28 80 42 80"
+                stroke="#ffffff"
+                stroke-width="4"
+                fill="none"
+                stroke-linecap="round"
+              />
+              <circle cx="44" cy="80" r="4" fill="#ffffff" />
+            </svg>
+            <h2>IT Support</h2>
+            <p>
+              Troubleshooting, help desk, system administration, hardware
+              repair, software installation, network configuration, Active
+              Directory, Windows, macOS, Linux, ticketing systems, remote
+              support, user training, data backup, patch management, incident
+              resolution, customer service, IT documentation, problem-solving,
+              reliable technical support professional.
+            </p>
+            <a href="it.html" target="_blank"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+          <div>
+            <svg
+              width="80"
+              height="80"
+              viewBox="0 0 100 100"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="50" cy="50" r="50" fill="#E60000" />
+              <path
+                d="M60 30 C48 30 40 38 40 48 C40 58 48 66 60 66 C63 66 66 65 68 64 L68 72 L78 63 C81 59 82 54 82 48 C82 38 72 30 60 30 Z"
+                fill="#ffffff"
+              />
+              <circle cx="60" cy="48" r="10" fill="#E60000" />
+            </svg>
+            <h2>Vodafone Fondation IT Coach</h2>
+            <p>
+              Instant Network Schools Coach Duties Support the daily operations
+              of the digital classroom hub. Mentor and train teachers on using
+              the technology kit. Maintain all equipment including tablets,
+              laptops, and solar power. Provide technical support for learners.
+              Record usage logs and upload data to track program impact and
+              challenges.
+            </p>
+            <a href="voda.html" target="_blank"
+              >Learn More <i class="fas fa-arrow-right"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== PORTFOLIO ========== -->
+    <div id="portofolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work"><img src="images/farmers3.jpg" alt="Work 1" /></div>
+          <div class="work"><img src="images/farmers2.jpg" alt="Work 2" /></div>
+          <div class="work">
+            <img src="images/farmers2 (2).jpg" alt="Work 3" />
+          </div>
+          <div class="work"><img src="images/1acbc.jpg" alt="Work 4" /></div>
+          <div class="work"><img src="images/MAKENE.jpg" alt="Work 5" /></div>
+          <div class="work">
+            <img src="images/chac easter.jpg" alt="Work 6" />
+          </div>
+          <div class="work"><img src="images/digital.jpg" alt="Work 7" /></div>
+          <div class="work"><img src="images/retouc.jpg" alt="Work 8" /></div>
+          <div class="work">
+            <img src="images/Mood weekend.jpg" alt="Work 9" />
+          </div>
+          <div class="work"><img src="images/week.jpg" alt="Work 10" /></div>
+          <div class="work"><img src="images/friday1.jpg" alt="Work 11" /></div>
+          <div class="work"><img src="images/spe f.jpg" alt="Work 12" /></div>
+          <div class="work"><img src="images/buss-2.jpg" alt="Work 13" /></div>
+          <div class="work"><img src="images/mamadou.jpg" alt="Work 14" /></div>
+          <div class="work">
+            <img src="images/mbappe k.jpg" alt="Work 15" />
+          </div>
+          <div class="work">
+            <img src="images/mbappe psd.jpg" alt="Work 16" />
+          </div>
+          <div class="work">
+            <img src="images/no free design.jpg" alt="Work 17" />
+          </div>
+          <div class="work">
+            <img src="images/samia 29.jpg" alt="Work 18" />
+          </div>
+          <div class="work">
+            <img src="images/Nyago man.jpg" alt="Work 19" />
+          </div>
+          <div class="work">
+            <img src="images/vinicius Jr.jpg" alt="Work 20" />
+          </div>
+          <div class="work">
+            <img src="images/CHACHA EVENTS.jpg" alt="Work 21" />
+          </div>
+          <div class="work"><img src="images/red.jpg" alt="Work 22" /></div>
+          <div class="work"><img src="images/FEBRUAR.jpg" alt="Work 23" /></div>
+          <div class="work"><img src="images/sport.jpg" alt="Work 24" /></div>
+          <div class="work"><img src="images/joshu2.jpg" alt="Work 25" /></div>
+          <div class="work"><img src="images/1ae.jpg" alt="Work 26" /></div>
+          <div class="work">
+            <img src="images/Christmas.jpg" alt="Work 27" />
+          </div>
+          <div class="work"><img src="images/1abb.jpg" alt="Work 28" /></div>
+          <div class="work"><img src="images/1ac.jpg" alt="Work 29" /></div>
+          <div class="work"><img src="images/1ad.jpg" alt="Work 30" /></div>
+          <div class="work"><img src="images/1ac.jpg" alt="Work 31" /></div>
+          <div class="work">
+            <img src="images/november.jpg" alt="Work 32" />
+          </div>
+          <div class="work"><img src="images/SP mo.jpg" alt="Work 33" /></div>
+          <div class="work"><img src="images/redev.jpg" alt="Work 34" /></div>
+        </div>
+        <a href="https://joshuamedia.space/" class="btn" target="_blank"
+          >See more</a
+        >
+      </div>
+    </div>
+
+    <!-- ========== CONTACT ========== -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>
+              <i class="fas fa-paper-plane"></i>
+              <a href="mailto:Nzesetz147@gmail.com">Nzesetz147@gmail.com</a>
+            </p>
+            <p>
+              <i class="fas fa-paper-plane"></i>
+              <a href="mailto:heritierilunga02@outlook.com"
+                >heritierilunga02@outlook.com</a
+              >
+            </p>
+            <p>
+              <i class="fas fa-phone-square"></i>
+              <a href="tel:+255757539470">+255 757 539 470</a>
+            </p>
+
+            <div class="social-icons">
+              <a
+                href="https://www.facebook.com/alphonse.nzese.9"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+              <a href="https://x.com/Heritierilun?s=09" target="_blank"
+                ><i class="fab fa-twitter-square"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/heritier_ilungaa"
+                target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#"><i class="fab fa-linkedin"></i></a>
+              <a href="https://wa.me/qr/2VPN6DKV45AAJ1" target="_blank"
+                ><i class="fab fa-whatsapp"></i
+              ></a>
+              <a href="https://www.tiktok.com/@faraday127" target="_blank"
+                ><i class="fab fa-tiktok"></i
+              ></a>
+            </div>
+            <a
+              href="HERITIER ILUNGA                                                Date.pdf"
+              download
+              class="btn btn2"
+              >Download My CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form action="https://formspree.io/f/xpwboqdz" method="post">
+              <input
+                type="text"
+                name="name"
+                placeholder="Enter your Name"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Leave your message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright 2026&copy; Heritier Ilunga. All rights eserved</p>
+      </div>
+    </div>
+
+    <!-- ========== LIGHTBOX (image preview) ========== -->
+    <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+      <span class="lightbox-close" onclick="closeLightbox()">&times;</span>
+      <img
+        id="lightbox-img"
+        src=""
+        alt="Preview"
+        onclick="event.stopPropagation()"
+      />
+    </div>
+
+    <!-- ========== JAVASCRIPT ========== -->
+    <script>
+      /* ---------- TAB SWITCHING ---------- */
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-content");
+
+      function opentab(event, tabname) {
+        for (var tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (var tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tabe");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tabe");
+      }
+
+      /* ---------- MOBILE MENU ---------- */
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-260px";
+      }
+
+      /* ---------- LIGHTBOX (opens EVERY image EXCEPT the logo) ---------- */
+      var lightbox = document.getElementById("lightbox");
+      var lightboxImg = document.getElementById("lightbox-img");
+
+      var allImages = document.querySelectorAll(
+        "img:not(#lightbox-img):not(.logo)",
+      );
+
+      allImages.forEach(function (img) {
+        img.style.cursor = "pointer";
+        img.addEventListener("click", function (e) {
+          e.stopPropagation();
+          lightboxImg.src = this.src;
+          lightboxImg.alt = this.alt || "Preview";
+          lightbox.classList.add("active");
+          document.body.style.overflow = "hidden";
+        });
+      });
+
+      function closeLightbox() {
+        lightbox.classList.remove("active");
+        document.body.style.overflow = "";
+        lightboxImg.src = "";
+      }
+
+      document.addEventListener("keydown", function (e) {
+        if (e.key === "Escape" && lightbox.classList.contains("active")) {
+          closeLightbox();
+        }
+      });
+    </script>
+
+    <!-- ========== GOOGLE TRANSLATE SCRIPT ========== -->
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement(
+          {
+            pageLanguage: "en",
+            autoDisplay: false,
+            includedLanguages:
+              "af,sq,am,ar,hy,az,eu,be,bn,bs,bg,ca,ceb,zh-CN,zh-TW,co,hr,cs,da,nl,en,eo,et,fi,fr,fy,gl,ka,de,el,gu,ht,ha,haw,he,hi,hmn,hu,is,ig,id,ga,it,ja,jw,kn,kk,km,rw,ko,ku,ky,lo,la,lv,lt,lb,mk,mg,ms,ml,mt,mi,mr,mn,my,ne,no,ny,or,ps,fa,pl,pt,pa,ro,ru,sm,gd,sr,st,sn,sd,si,sk,sl,so,es,su,sw,sv,tl,tg,ta,tt,te,th,tr,tk,uk,ur,ug,uz,vi,cy,xh,yi,yo,zu",
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          },
+          "google_translate_element",
+        );
+      }
+    </script>
+    <script
+      type="text/javascript"
+      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    ></script>
+  </body>
+</html>

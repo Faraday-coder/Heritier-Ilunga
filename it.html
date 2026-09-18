@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IT Support · Heritier Ilunga</title>
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- css file linked -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div id="header" style="min-height: 45vh">
+      <div class="container">
+        <nav>
+          <div class="logo-wrap">
+            <img
+              src="../images/favGee.png"
+              class="logo"
+              alt="Joshua Media Logo"
+            />
+          </div>
+          <ul id="sidemenu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#services">Services</a></li>
+            <li><a href="../index.html#portofolio">Portfolio</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="text-header" style="margin-top: 8vh">
+          <p>Service Detail</p>
+          <h1>IT <span>Support</span></h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-2" style="flex-basis: 100%">
+            <h1 class="sub-title">IT Support</h1>
+            <p>
+              Troubleshooting, help desk, system administration, hardware
+              repair, software installation, network configuration, Active
+              Directory, Windows, macOS, Linux, ticketing systems, remote
+              support, user training, data backup, patch management, incident
+              resolution, customer service, IT documentation, problem-solving,
+              reliable technical support professional.
+            </p>
+
+            <div class="tab-content active-tabe" style="display: block">
+              <ul>
+                <li>
+                  <span>Help Desk</span><br />First-line support for hardware,
+                  software, and network issues via phone, remote, or on-site.
+                </li>
+                <li>
+                  <span>System Administration</span><br />Managing Windows,
+                  macOS, and Linux systems, user accounts, and Active Directory.
+                </li>
+                <li>
+                  <span>Hardware & Software</span><br />Installation, repair,
+                  upgrades, and maintenance of desktops, laptops, and
+                  peripherals.
+                </li>
+                <li>
+                  <span>Network Support</span><br />Configuring routers,
+                  switches, Wi-Fi, printers, and shared resources.
+                </li>
+                <li>
+                  <span>Data & Security</span><br />Backups, patch management,
+                  antivirus, and basic security hygiene for end users.
+                </li>
+                <li>
+                  <span>Documentation</span><br />Ticketing systems, knowledge
+                  base articles, and clear IT procedures for your team.
+                </li>
+              </ul>
+            </div>
+
+            <a href="index.html" class="btn btn2" style="margin-top: 40px">
+              <i class="fas fa-arrow-left"></i> Back to Services
+            </a>
+            <a
+              href="index.html#contact"
+              class="btn btn2"
+              style="margin-top: 40px"
+            >
+              Contact Me <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>Copyright 2026&copy; Heritier Ilunga. All rights reserved</p>
+    </div>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-260px";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Security · Heritier Ilunga</title>
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div id="header" style="min-height: 45vh">
+      <div class="container">
+        <nav>
+          <div class="logo-wrap">
+            <img
+              src="../images/favGee.png"
+              class="logo"
+              alt="Joshua Media Logo"
+            />
+          </div>
+          <ul id="sidemenu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#services">Services</a></li>
+            <li><a href="../index.html#portofolio">Portfolio</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="text-header" style="margin-top: 8vh">
+          <p>Service Detail</p>
+          <h1>Cyber <span>Security</span></h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-2" style="flex-basis: 100%">
+            <h1 class="sub-title">Cyber Security</h1>
+            <p>
+              I help businesses build strong security postures through risk
+              assessment, policy development, and security awareness training.
+              My goal is to create resilient organizations that can prevent,
+              detect, and respond to cyber incidents effectively.
+            </p>
+
+            <div class="tab-content active-tabe" style="display: block">
+              <ul>
+                <li>
+                  <span>Risk Assessment</span><br />Identifying weaknesses in
+                  your systems, networks, and processes before attackers do.
+                </li>
+                <li>
+                  <span>Policy Development</span><br />Building clear security
+                  policies, procedures, and incident response plans.
+                </li>
+                <li>
+                  <span>Security Awareness</span><br />Training your staff to
+                  recognize phishing, social engineering, and common threats.
+                </li>
+                <li>
+                  <span>Monitoring & Response</span><br />Helping you detect,
+                  contain, and recover from cyber incidents quickly.
+                </li>
+                <li>
+                  <span>Compliance</span><br />Aligning your security practices
+                  with standards like ISO 27001, PCI-DSS, and GDPR.
+                </li>
+              </ul>
+            </div>
+
+            <a href="index.html" class="btn btn2" style="margin-top: 40px">
+              <i class="fas fa-arrow-left"></i> Back to Services
+            </a>
+            <a
+              href="index.html#contact"
+              class="btn btn2"
+              style="margin-top: 40px"
+            >
+              Contact Me <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>Copyright 2026&copy; Heritier Ilunga. All rights reserved</p>
+    </div>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-260px";
+      }
+    </script>
+  </body>
+</html>

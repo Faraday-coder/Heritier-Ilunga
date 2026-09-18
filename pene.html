@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Penetration Testing · Heritier Ilunga</title>
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div id="header" style="min-height: 45vh">
+      <div class="container">
+        <nav>
+          <div class="logo-wrap">
+            <img
+              src="../images/favGee.png"
+              class="logo"
+              alt="Joshua Media Logo"
+            />
+          </div>
+          <ul id="sidemenu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#services">Services</a></li>
+            <li><a href="../index.html#portofolio">Portfolio</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="text-header" style="margin-top: 8vh">
+          <p>Service Detail</p>
+          <h1>Penetration <span>Testing</span></h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-2" style="flex-basis: 100%">
+            <h1 class="sub-title">Penetration Testing</h1>
+            <p>
+              Conduct authorized security assessments of web apps, networks, and
+              systems. Perform reconnaissance, vulnerability scanning, and
+              controlled exploitation using tools like Burp Suite, Nmap, and
+              Metasploit. Document findings, rate risks, write technical and
+              executive reports, and recommend remediation. Collaborate with
+              teams and retest fixes to strengthen security posture.
+            </p>
+
+            <div class="tab-content active-tabe" style="display: block">
+              <ul>
+                <li>
+                  <span>Reconnaissance</span><br />Passive and active
+                  information gathering — OSINT, DNS enumeration, subdomain
+                  discovery.
+                </li>
+                <li>
+                  <span>Vulnerability Assessment</span><br />Manual and
+                  automated testing for OWASP Top 10 and beyond.
+                </li>
+                <li>
+                  <span>Exploitation</span><br />Controlled exploitation to
+                  validate findings and measure real-world impact.
+                </li>
+                <li>
+                  <span>Reporting</span><br />Clear technical and executive
+                  reports with CVSS risk ratings and PoC evidence.
+                </li>
+                <li>
+                  <span>Retesting</span><br />Verifying that fixes work and no
+                  new vulnerabilities were introduced.
+                </li>
+                <li>
+                  <span>Tools I Use</span><br />Burp Suite, Metasploit, Nmap,
+                  sqlmap, Wireshark, Nessus, BloodHound.
+                </li>
+              </ul>
+            </div>
+
+            <a href="index.html" class="btn btn2" style="margin-top: 40px">
+              <i class="fas fa-arrow-left"></i> Back to Services
+            </a>
+            <a
+              href="index.html#contact"
+              class="btn btn2"
+              style="margin-top: 40px"
+            >
+              Contact Me <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>Copyright 2026&copy; Heritier Ilunga. All rights reserved</p>
+    </div>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-260px";
+      }
+    </script>
+  </body>
+</html>

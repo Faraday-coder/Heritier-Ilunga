@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vodafone IT Coach · Heritier Ilunga</title>
+    <link
+      rel="shortcut icon"
+      href="../images/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- css linked file -->
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div id="header" style="min-height: 45vh">
+      <div class="container">
+        <nav>
+          <div class="logo-wrap">
+            <img
+              src="../images/favGee.png"
+              class="logo"
+              alt="Joshua Media Logo"
+            />
+          </div>
+          <ul id="sidemenu">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../index.html#services">Services</a></li>
+            <li><a href="../index.html#portofolio">Portfolio</a></li>
+            <li><a href="../index.html#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="text-header" style="margin-top: 8vh">
+          <p>Service Detail</p>
+          <h1>Vodafone Foundation <span>IT Coach</span></h1>
+        </div>
+      </div>
+    </div>
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-2" style="flex-basis: 100%">
+            <h1 class="sub-title">Vodafone Foundation IT Coach</h1>
+            <p>
+              Instant Network Schools Coach Duties. Support the daily operations
+              of the digital classroom hub. Mentor and train teachers on using
+              the technology kit. Maintain all equipment including tablets,
+              laptops, and solar power. Provide technical support for learners.
+              Record usage logs and upload data to track program impact and
+              challenges.
+            </p>
+
+            <div class="tab-content active-tabe" style="display: block">
+              <ul>
+                <li>
+                  <span>Daily Operations</span><br />Keeping the Instant Network
+                  Schools digital hub running smoothly every school day.
+                </li>
+                <li>
+                  <span>Teacher Training</span><br />Mentoring and coaching
+                  teachers on how to use the technology kit in their lessons.
+                </li>
+                <li>
+                  <span>Equipment Maintenance</span><br />Caring for tablets,
+                  laptops, projectors, routers, and solar power systems.
+                </li>
+                <li>
+                  <span>Learner Support</span><br />Providing technical help to
+                  students so they can learn without interruption.
+                </li>
+                <li>
+                  <span>Data & Reporting</span><br />Recording usage logs and
+                  uploading data to track program impact and challenges.
+                </li>
+                <li>
+                  <span>My Role</span><br />IT Coach at Vodafone Foundation —
+                  Instant Network School, Tanzania (2023 – Current).
+                </li>
+              </ul>
+            </div>
+
+            <a href="index.html" class="btn btn2" style="margin-top: 40px">
+              <i class="fas fa-arrow-left"></i> Back to Services
+            </a>
+            <a
+              href="index.html#contact"
+              class="btn btn2"
+              style="margin-top: 40px"
+            >
+              Contact Me <i class="fas fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <p>Copyright 2026&copy; Heritier Ilunga. All rights reserved</p>
+    </div>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+      function closemenu() {
+        sidemenu.style.right = "-260px";
+      }
+    </script>
+  </body>
+</html>
